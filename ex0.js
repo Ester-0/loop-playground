@@ -9,6 +9,39 @@
  *
  */
 
-let mes = 4;
+let mes = 12;
 
 // Escribir tu código a partir de aquí
+
+let numCase = 0
+
+switch (mes) {
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+        alert = ("Nos encontramos en el primer trimestre");
+        break;
+        
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+        alert =("Nos encontramos en el segundo trimestre");
+        break;
+
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+        alert =("Nos encontramos en el tercer trimestre");
+        break;
+
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+    case numCase = numCase +1:
+        alert =("Nos encontramos en el cuarto trimestre");
+        break;
+
+    default:
+        alert = ("El mes no existe");      
+}
+
+console.log(alert)
