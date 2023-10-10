@@ -1,7 +1,8 @@
 /**
  * El bucle infinito
  *
- * El siguiente bucle 'while', no acaba nunca. ¿Por qué?
+ * El siguiente bucle 'while', no acaba nunca. ¿Por qué? 
+ *  Poque la variable i siempre es cero y por lo tanto siempre es mas pequeña que la variable n
  * 
  * Arreglalo para que la palabra "Ejecutar!" se muestre 10 veces por el terminal
  */
@@ -9,7 +10,7 @@
 let n=10;
 let i=0;
 
-while(i<n;) {
-    console.log("Ejecutar!")
+while(i<n) {
+    console.log("Ejecutar!");i++
 }
 
