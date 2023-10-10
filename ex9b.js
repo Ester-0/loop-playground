@@ -22,11 +22,14 @@ for (let i=0;i<palabraDelDia.length;i++) {
 
     // Tu código a partir de aquí, dentro del bucle
     
-    if (palabraDelDia[i] == palabraIntroducida[i]) {console.log(`la letra ${i} es correcta`)}
-        else if (palabraDelDia[i] != palabraIntroducida.toString[i]) {console.log(`la letra ${i} NO es correcta`)}
-        else {`la letra ${i} es correcta, PERO se encuentra en una posición diferente`}
+    let palabraDelDiaSplit = palabraDelDia.split("");
+    console.log(palabraDelDiaSplit);
 
-        var prueva = console.log(palabraDelDia.slice[i])
+    // if (palabraDelDia[i] == palabraIntroducida[i]) {console.log(`la letra ${i} es correcta`)}
+    //     else if (palabraDelDia[i] != palabraIntroducida[i] && /**meter un if con un split para comparar todas las letras de la palabra */ ) {console.log(`la letra ${i} NO es correcta`)}
+    //     else {"la letra" + i + "es correcta, PERO se encuentra en una posición diferente"}
+
+       // var prueva = console.log(palabraDelDia[3])
 
 
 }
